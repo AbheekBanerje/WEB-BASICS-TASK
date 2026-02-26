@@ -1,0 +1,18 @@
+class Employee {
+    name;
+    constructor(name) {
+        this.name = name;
+    }
+    work() {
+        console.log(`${this.name} is working`);
+    }
+}
+class Manager extends Employee {
+    manage() {
+        console.log(`${this.name} is managing the team`);
+    }
+}
+const m1 = new Manager("Abheek");
+m1.work();
+m1.manage();
+export {};

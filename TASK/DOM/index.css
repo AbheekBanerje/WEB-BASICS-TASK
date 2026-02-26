@@ -1,0 +1,18 @@
+div{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div #form{
+    #inputValue{
+        border-radius: 40px;
+        border: 1px solid rgb(16, 16, 15);
+    }
+}
+button{
+    border-radius: 40px;
+    border: 1px solid rgb(6, 6, 6);
+    background-color: rgb(187, 67, 67);
+    color: white;
+}
